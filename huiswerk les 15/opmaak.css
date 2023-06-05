@@ -1,0 +1,68 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+header, footer{
+    padding: 5px;
+    background-color: aquamarine;
+    height: 80px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+li :hover{
+    background-color: blueviolet;
+    border-style: none;
+}
+div.index{
+   background-color: rgb(168, 168, 214); 
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+div.cv{
+    background-color: rgb(168, 168, 214);
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px 5px;
+}
+div.contact{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(168, 168, 214);
+}
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+} 
+textarea{
+    height: 200px;
+    padding: 5px 4px;
+}
+button:active{
+    background-color: darkgreen;
+    color: white;
+}
